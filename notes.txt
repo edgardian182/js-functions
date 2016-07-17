@@ -1,0 +1,12 @@
+- En JavaScript las funciones son la única cosa que crea un nuevo SCOPE
+  - Ni siquiera {} crea un nuevo SCOPE
+  ** power.js
+
+
+- NUNCA DECLARAR UNA FUNCIÓN DENTRO DE UN IF O LOOP
+
+
+- OPTIONAL ARGUMENTS
+  - Si a una función se le pasasn muchos argumentos los no obligatorios son ignorados y si se le pasan muy pocos los faltantes son declarados 'undefined'
+    - Permite crear parametros opcionales
+    ** power_optional.js

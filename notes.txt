@@ -1,3 +1,5 @@
+FUNCTIONS
+
 - En JavaScript las funciones son la única cosa que crea un nuevo SCOPE
   - Ni siquiera {} crea un nuevo SCOPE
   ** power.js
@@ -10,3 +12,8 @@
   - Si a una función se le pasasn muchos argumentos los no obligatorios son ignorados y si se le pasan muy pocos los faltantes son declarados 'undefined'
     - Permite crear parametros opcionales
     ** power_optional.js
+
+- CLOSURE
+  - Es una función que se encierra sobre una variable local congelando el código de su cuerpo en una variable (junto a las Local Variables) para ser llamadas posteriormente.
+   - El parametro de la función CLOSURE se almacena como variable local también
+   ** closure_multiplier.js

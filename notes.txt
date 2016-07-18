@@ -17,3 +17,11 @@ FUNCTIONS
   - Es una función que se encierra sobre una variable local congelando el código de su cuerpo en una variable (junto a las Local Variables) para ser llamadas posteriormente.
    - El parametro de la función CLOSURE se almacena como variable local también
    ** closure_multiplier.js
+
+- RECURSION
+  - Es una función que se llama a sí misma cambiando sus argumentos cada vez hasta alcanzar el resultado esperado
+  - Correr un LOOP resulta más "barato" que llamar una función multiples veces
+    - No preocupar por eficiencia hasta comprobar que el programa es muy lento
+    - 1. Define los casos triviales (Donde no se invoca la función nuevamente --> Condición para terminar ciclo)
+    - 2. Define casos generales (Donde se invola la función)
+    - 3. Verificar cambios en la función le acercan a caso trivial

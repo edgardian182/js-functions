@@ -25,3 +25,5 @@ FUNCTIONS
     - 1. Define los casos triviales (Donde no se invoca la función nuevamente --> Condición para terminar ciclo)
     - 2. Define casos generales (Donde se invola la función)
     - 3. Verificar cambios en la función le acercan a caso trivial
+    ** power_recursion.js
+    ** fibonacci_recursion.js

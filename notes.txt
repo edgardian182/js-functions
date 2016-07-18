@@ -27,3 +27,4 @@ FUNCTIONS
     - 3. Verificar cambios en la función le acercan a caso trivial
     ** power_recursion.js
     ** fibonacci_recursion.js
+    ** isEven_recursion.js
